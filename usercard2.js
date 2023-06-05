@@ -4,7 +4,7 @@ let yougerversionofsahithi = {
     Description:"III rd "
 }
 let olderversionofsahithi = {
-    imageurl: "https://e0.pxfuel.com/wallpapers/667/489/desktop-wallpaper-cute-cartoon-girl-cute-girl.jpg",
+    imageurl: "https://i.pinimg.com/736x/be/32/33/be32339ccdaa8b3f82d0a461be5e3d80.jpg",
     name :"Elder version of SAHITHI",
     Description: "Achieved 40lakhs package in campus placements"
 }
