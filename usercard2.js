@@ -19,7 +19,7 @@ let flipdata = function(){
         displayobject = yougerversionofsahithi,
         issahithiyoung = true;
     }
-    document.getElementById("sahihtiimg").src = displayobject.imgurl;
+    document.getElementById("sahihti-img").src = displayobject.imageurl;
     document.getElementById("sahithiname").innerHTML = displayobject.name;
-    document.getElementById("sahithides").innerHTML = displayobject.Description;
+    document.getElementById("sahithi-des").innerHTML = displayobject.Description;
 }
