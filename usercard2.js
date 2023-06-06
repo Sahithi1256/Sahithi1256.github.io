@@ -1,7 +1,7 @@
 let yougerversionofsahithi = {
     imgurl: "https://i.pinimg.com/736x/be/32/33/be32339ccdaa8b3f82d0a461be5e3d80.jpg",
     name: "SAHITHI",
-    Description:"III rd "
+    Description:"IIIrd year IT Department Student"
 }
 let olderversionofsahithi = {
     imageurl: "https://i.pinimg.com/736x/be/32/33/be32339ccdaa8b3f82d0a461be5e3d80.jpg",
