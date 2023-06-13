@@ -3,22 +3,12 @@ let yougerversionofsahithi = {
     name: "SAHITHI",
     Description:"IIIrd year IT Department Student"
 }
-let olderversionofsahithi = {
-    imageurl: "https://e0.pxfuel.com/wallpapers/667/489/desktop-wallpaper-cute-cartoon-girl-cute-girl.jpg",
-    name :"Elder version of SAHITHI",
-    Description: "Achieved 40lakhs package in campus placements"
-}
-let issahithiyoung = true;
+
 let displayobject;
-let flipdata = function(){
-    if(issahithiyoung == true){
-        displayobject = olderversionofsahithi,
-        issahithiyoung = false;
-    }
-    else{
-        displayobject = yougerversionofsahithi,
-        issahithiyoung = true;
-    }
+let getRandomUser = function(){
+    fetch("https://randomuser.me/api")
+    .then(response => response.json())
+    .then(data=>console.log(data))
     document.getElementById("sahihti-img").src = displayobject.imageurl;
     document.getElementById("sahithiname").innerHTML = displayobject.name;
     document.getElementById("sahithi-des").innerHTML = displayobject.Description;
