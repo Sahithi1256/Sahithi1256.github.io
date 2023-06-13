@@ -4,7 +4,11 @@ let yougerversionofsahithi = {
     Description:"IIIrd year IT Department Student"
 }
 
-let displayobject;
+let displayobject = {
+    name : "",
+    imageurl : "",
+    Description : ""
+};
 let getRandomUser = function(){
     fetch("https://randomuser.me/api")
     .then(response => response.json())
